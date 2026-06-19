@@ -16,10 +16,10 @@ e depois o cliente
 go run client/main.go
 ```
 
-se quiser ver os registros da tabela do sqlite so rodar
+se quiser ver os registros da tabela do sqlite (pacote sqlite3 instalado)
 
 ```
 cd server
-sqlite
+sqlite3 app.db
 select * from dollar_quotation_dbs;
 ```
