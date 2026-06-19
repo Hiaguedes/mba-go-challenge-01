@@ -1,4 +1,4 @@
-module hiaguedes/mba-go-challenge-01/server
+module github.com/Hiaguedes/mba-go-challenge-01/server
 
 go 1.26.4
 

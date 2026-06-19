@@ -15,3 +15,11 @@ e depois o cliente
 ```bash
 go run client/main.go
 ```
+
+se quiser ver os registros da tabela do sqlite so rodar
+
+```
+cd server
+sqlite
+select * from dollar_quotation_dbs;
+```
