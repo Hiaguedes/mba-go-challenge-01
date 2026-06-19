@@ -2,9 +2,9 @@
 
 ## Como rodar 
 
-Primeiro roda o docker com o sqlite e depois o server com os comandos abaixo
-
 Por usar gorm, certifique-se de ter instalado o compilador de C (gcc) no sistema operacional
+
+Depois so rodar o comando do server
 
 ```bash
 go run server/main.go
