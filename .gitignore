@@ -1,0 +1,33 @@
+# Binaries and Icons
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test artifacts and coverage reports
+*.test
+*.out
+*.coverprofile
+profile.cov
+
+# Dependency directories
+# Only un-comment if you strictly use 'go mod vendor' and don't want it in Git
+# vendor/
+
+# Go workspace file (keeps local module paths private)
+go.work
+go.work.sum
+
+# Local environment files containing sensitive credentials
+.env
+.env.local
+
+# Common IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
